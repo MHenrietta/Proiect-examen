@@ -1,0 +1,141 @@
+/* Reset Styles */
+*{
+  margin: 0;
+}
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #c2ebbd;
+    padding: 15px;
+    padding-right: 120px;
+    display: flex;
+    color: black; 
+  }
+  
+  header h1 {
+    font-size: 40px;
+  }
+  nav {
+    margin: auto;
+  }
+  /*Se aplica la ambele nav-uri*/
+  nav ul {
+    padding: 0.5rem;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    justify-content: center;
+  }
+   /*Asta nu cred ca mi-l trebe
+  nav ul li {
+    margin-left: 1rem;
+  }*/
+  
+  /* Asta face toate schimbarile la ambele nav-uri*/
+  nav ul li a {
+    text-decoration: none; /*nu e subliniat linkul*/
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5rem;
+  }
+  
+  /*Cand sunt deasupra se schimba culoarea la ambele nav-uri*/
+  nav ul li a:hover {
+    background-color: #ddd;  
+    
+  }
+  
+
+  /* Main Content Styles */
+  main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  section {
+    margin-bottom: 1rem;
+
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+ 
+  div {
+    background-color: #e9dce6;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 9px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+  }
+
+  div h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+   
+  }
+  
+  div p {
+    margin-bottom: 1rem;
+  }
+ 
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #d5a8a8;
+    color: #fff;
+  }
+  
+  .ipsum {
+    color: 333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+
+  .contact {
+    text-align: center;
+    justify-content: center;
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #c2ebbd;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+    color: black;
+  }
+  
